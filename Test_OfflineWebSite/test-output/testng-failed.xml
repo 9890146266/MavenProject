@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.skm.mavenproject.JBK_Offline">
+        <methods>
+          <include name="test_Extent"/>
+          <include name="test_Failure_function"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.skm.mavenproject.JBK_Offline -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
